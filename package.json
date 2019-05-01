@@ -1,0 +1,35 @@
+{
+  "name": "togepi",
+  "version": "1.0.0",
+  "description": "Software engineering project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest",
+    "test-with-cov": "jest && codecov"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Markus Pettersson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "codecov": "^3.3.0",
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.10"
+  },
+  "engines": {
+    "node": "8.16.0"
+  }
+}
