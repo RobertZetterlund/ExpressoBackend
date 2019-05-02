@@ -12,10 +12,6 @@
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
   },
-  "keywords": [
-    "example",
-    "heroku"
-  ],
   "author": "Markus Pettersson",
   "license": "ISC",
   "dependencies": {
@@ -31,5 +27,9 @@
   },
   "engines": {
     "node": "8.16.0"
-  }
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ]
 }
