@@ -1,5 +1,5 @@
 const brewed_coffee = {
-  name: "Brygg Kaffe",
+  name: "Bryggkaffe",
   price: 12,
   volume: 330,
   id: 123
