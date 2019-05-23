@@ -1,5 +1,5 @@
 const brewed_coffee = {
-  name: "Brewed Coffee",
+  name: "Bryggkaffe",
   price: 12,
   volume: 330,
   id: 123
@@ -27,17 +27,21 @@ const biblioteket = {
     latitude: 57.690382,
     longitude: 11.978556
   },
+  street: "Hörsalsvägen 2",
   drinkList: [
     {
       ...brewed_coffee,
+      description: "Chalmers bästa kaffe för studerande",
       shopId: 0
     },
     {
       ...latte,
+      description: "Lätt en latte!",
       shopId: 0
     },
     {
       ...cappuccino,
+      description: "Inte kaps men en cappucino!",
       shopId: 0
     }
   ]
@@ -51,13 +55,17 @@ const bulten = {
     latitude: 57.689008,
     longitude: 11.978538
   },
+  street: "Hörsalsvägen 7",
   drinkList: [
     {
       ...brewed_coffee,
+      description: "Så gott som hemmabryggt",
       shopId: 1
     },
     {
       ...cappuccino,
+      description: "Inte kaps men en cappucino!",
+
       shopId: 1
     }
   ]
@@ -66,6 +74,7 @@ const bulten = {
 const linsen = {
   id: 2,
   name: "Linsen",
+  street: "Hörsalsvägen 11",
   // picture: require("./resources/linsen.jpg"),
   coordinates: {
     latitude: 57.687962,
@@ -74,14 +83,19 @@ const linsen = {
   drinkList: [
     {
       ...brewed_coffee,
+      description: "Hemmabryggt",
+
       shopId: 2
     },
     {
       ...latte,
+      description: "DataFavoriten",
       shopId: 2
+
     },
     {
       ...cappuccino,
+      description: "IT-Favoriten",
       shopId: 2
     }
   ]
@@ -90,6 +104,7 @@ const linsen = {
 const veras_cafe = {
   id: 3,
   name: "Veras Café",
+  street: "Vera Sandbergs allé",
   // picture: require("./resources/vera.jpg"),
   coordinates: {
     latitude: 57.693158,
@@ -98,14 +113,17 @@ const veras_cafe = {
   drinkList: [
     {
       ...brewed_coffee,
+      description: "I-arnas räddning",
       shopId: 3
     },
     {
       ...latte,
+      description: "AE-arnas räddning",
       shopId: 3
     },
     {
       ...cappuccino,
+      description: "Ingens räddning",
       shopId: 3
     }
   ]
@@ -114,6 +132,7 @@ const veras_cafe = {
 const wijkanders = {
   id: 4,
   name: "Wijkanders",
+  street: "Vera Sandbergs allé 5B",
   // picture: require("./resources/wijkanders.jpg"),
   coordinates: {
     latitude: 57.692538,
@@ -122,10 +141,12 @@ const wijkanders = {
   drinkList: [
     {
       ...brewed_coffee,
-      shopId: 4
+      shopId: 4,
+      description: "Wiljkanders bästa"
     },
     {
       ...latte,
+      description: "Lätt en Latte",
       shopId: 4
     }
   ]
